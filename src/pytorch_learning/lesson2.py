@@ -52,5 +52,11 @@ def run():
                                                                                                           points)))
 
 
-if __name__ == '__main__':
-    run()
+import torch
+
+a = torch.randint(1, 99, size=(3, 3))
+print(a)
+print(torch.is_tensor(a))
+
+# if __name__ == '__main__':
+#     run()
